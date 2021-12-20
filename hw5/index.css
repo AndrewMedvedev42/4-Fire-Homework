@@ -1,0 +1,52 @@
+* {
+    font-size: 1em;
+}
+
+p {
+    margin: 0px;
+    padding: 0px;
+
+}
+
+#keyboard {
+    overflow: hidden;
+    border-radius: 25px;
+    border:black 3px solid;
+    background-color: red;
+    width: 240px;
+    display: block;
+}
+
+#keyboard #display {
+    background-color: lightgray;
+    height: 35px;
+    text-align: justify;
+    font-size: 2em;
+    padding: 10px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+#keyboard button {
+    border:none;
+    border-top:black 1px solid ;
+    border-right:black 1px solid ;
+    height: 60px;
+    width: 60px;
+    cursor: pointer;
+}
+
+button:focus {outline:0;}
+
+#keyboard .blue {
+    color: white;
+    background-color: rgb(0, 153, 255)
+}
+
+#keyboard #zero {
+    text-align: left;
+}
+
+#keyboard #zero #null {
+    width: 120px;
+}
